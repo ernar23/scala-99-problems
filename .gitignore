@@ -1,0 +1,14 @@
+target
+*.class
+*.log
+
+*.iml
+*.ipr
+*.iws
+.idea
+out
+
+.bsp
+null
+project/plugins.sbt
+project/target/
