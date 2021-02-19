@@ -21,7 +21,7 @@ object P13 extends App {
     iter(Nil, list)
   }
 
-  def encodeDirectTailRec[A](list: List[A]): List[(Int, A)] = {
+  def encodeDirectTailRec2[A](list: List[A]): List[(Int, A)] = {
     @tailrec
     def iter(acc: List[(Int, A)], ls: List[A]): List[(Int, A)] = {
       ls match {

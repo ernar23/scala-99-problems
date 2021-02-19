@@ -19,6 +19,6 @@ object P17 extends App {
     iter(n, Nil, list)
   }
 
-  def splitBuiltin[A](n: Int, list: List[A]): (List[A], List[A]) = (list.take(n), list.drop(n))
+  def splitBuiltin2[A](n: Int, list: List[A]): (List[A], List[A]) = (list.take(n), list.drop(n))
 
 }

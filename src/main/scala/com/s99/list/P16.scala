@@ -12,7 +12,7 @@ object P16 extends App {
     } yield e
   }
 
-  def dropFunctional[A](n: Int, list: List[A]): List[A] =
+  def dropFunctional2[A](n: Int, list: List[A]): List[A] =
     list.zipWithIndex.filter(t => (t._2 + 1) % n != 0).map(_._1)
 
 }
